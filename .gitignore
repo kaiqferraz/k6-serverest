@@ -1,0 +1,43 @@
+# Relatórios e saídas do k6
+summary.html
+*.html
+*.json
+*.csv
+k6-results-*.json
+k6-summary-*.json
+*.out
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de cache
+.cache/
+.temp/
